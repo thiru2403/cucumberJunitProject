@@ -25,7 +25,7 @@ public class BaseClass {
 	public static LoginPage login;
 	public static HomePage home;
 	public static CartPage cart;
-
+    public static String t="Test";
 	public void openBrowser(String browser) {
 		try {
 			if (browser.equalsIgnoreCase("chrome")) {
